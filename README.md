@@ -128,7 +128,5 @@ aws-2tier-app/
 
 **Akash M M**  
 Cloud & DevOps Enthusiast | AWS Certified Cloud Practitioner  
-[LinkedIn](www.linkedin.com/in/akashmm2004) • [GitHub](www.github.com/Akashmm887)
-
----
+[LinkedIn](www.linkedin.com/in/akashmm2004) | [GitHub](https://github.com/Akashmm887)
 
