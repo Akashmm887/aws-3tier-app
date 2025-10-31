@@ -57,17 +57,6 @@ http://<your-ec2-public-ip>:5000/
 
 ---
 
-### 4️⃣ Common Errors & Fixes
-
-| Error | Cause | Fix |
-|-------|--------|-----|
-| `Port 5000 already in use` | Another Flask process is running | Kill the old process using `sudo lsof -i :5000` and `sudo kill <PID>` |
-| `Permission Denied` | Missing execute permissions on file | Run `chmod +x app.py` or correct file permissions |
-| `SSL_ERROR_RX_RECORD_TOO_LONG` | Accessing via HTTPS when only HTTP is configured | Use `http://` instead of `https://` |
-| `CORS Policy Error` | Frontend on S3 can’t call backend | Install Flask-CORS and add it to the app |
-| `Public Access Denied` | EC2 security group not configured | Add inbound rule for port 5000 |
-
----
 
 ## 🗂️ Folder Structure
 
@@ -91,15 +80,7 @@ backend/
 
 ---
 
-## 📸 Recommended Screenshots for GitHub
 
-You can include the following images:
-1. EC2 Instance dashboard showing running Flask app  
-2. Flask output in the terminal (`Running on 0.0.0.0:5000`)  
-3. Browser showing JSON response from the EC2 public IP  
-4. Security group inbound rule configuration (port 5000 open)
-
----
 
 ## 🧱 Next Steps
 
