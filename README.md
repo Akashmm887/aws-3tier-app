@@ -91,28 +91,8 @@ RDS can later be added for persistent data storage._
 
 ---
 
-## 🐞 Common Issues & Fixes
 
-| Issue | Root Cause | Fix |
-|--------|-------------|-----|
-| `Permission denied (publickey)` | Wrong or missing PEM file permissions | Run `chmod 400 key.pem` |
-| `Flask module not found` | Flask not installed for the current user | Use `pip3 install flask --user` |
-| `Port 5000 in use` | Previous Flask process running | Kill with `sudo lsof -i :5000` |
-| `CORS policy error` | Frontend request blocked by browser | Install and configure `flask_cors` |
-| `403 Forbidden on S3` | Bucket policy or public access not enabled | Add correct bucket policy |
 
----
-
-## 📸 Recommended Screenshots for GitHub
-
-Include the following in your GitHub repo to strengthen your portfolio:
-- EC2 instance dashboard (running status)
-- Flask output in terminal (`Running on 0.0.0.0:5000`)
-- JSON data displayed in the browser
-- S3 static website endpoint working with your frontend
-- Architecture diagram
-
----
 
 ## 🧱 Future Enhancements
 - Add **Amazon RDS** as a database layer (MySQL/PostgreSQL)
@@ -152,4 +132,3 @@ Cloud & DevOps Enthusiast | AWS Certified Cloud Practitioner
 
 ---
 
-⭐ **If you liked this project, don’t forget to star the repository!**
